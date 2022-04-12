@@ -1,0 +1,56 @@
+html
+{background-color: white;
+
+}
+
+body
+{
+    background-color: initial;
+     margin: 50px 50px;
+    text-align: center;
+    background: rgb(13,116,152);
+    background: linear-gradient(27deg, rgba(13,116,152,1) 44%, rgba(32,177,186,1) 77%);
+}
+
+h1
+{
+    border: 2px solid #0d7498;
+    margin: 30px 200px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 11px 6px rgba(0,0,0,0.77); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 11px 6px rgba(0,0,0,0.77);
+}
+nav
+{
+    display: flex;
+    padding: 30px 30px;  
+}
+
+a
+{
+    text-decoration: none;
+    color: beige;
+}
+
+.blocNav
+{
+    font-size: 30px;
+    border: #000000 2px solid;
+    justify-content: space-around;
+    margin-right: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main
+{
+    width: 80%;
+    
+}
+
+@media only screen and (min-width:350px){
+
+h1{
+    margin: initial;
+
+}
+}
