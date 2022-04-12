@@ -43,8 +43,17 @@ a
 
 main
 {
-    width: 80%;
-    
+    width: 80%;  
+}
+
+
+.imageBureau
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media only screen and (min-width:350px){
