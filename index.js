@@ -1,6 +1,7 @@
-let cats = 2
-let dogs = 5
+let text= document.getElementsByClassName ("testHtml");
 
-let phrase = "j'ai $(cats) chat et $(chiens) chiens"
-console.log (phrase)
 
+text.innerHTML="bonjour";
+
+
+ 

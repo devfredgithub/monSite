@@ -6,10 +6,12 @@ html
 body
 {
     background-color: initial;
-     margin: 50px 50px;
+    margin: 0;
     text-align: center;
-    background: rgb(13,116,152);
-    background: linear-gradient(27deg, rgba(13,116,152,1) 44%, rgba(32,177,186,1) 77%);
+    background: rgb(7,133,172);
+background: linear-gradient(7deg, rgba(7,133,172,1) 20%, rgba(119,165,177,1) 100%);
+ 
+    
 }
 
 h1
@@ -22,7 +24,10 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 11px 6px rgba(0,0,0,0.77);
 nav
 {
     display: flex;
-    padding: 30px 30px;  
+    justify-content: center;
+    padding: 30px 30px; 
+    position: fixed;
+    z-index: 3;
 }
 
 a
@@ -34,27 +39,50 @@ a
 .blocNav
 {
     font-size: 30px;
-    border: #000000 2px solid;
+    border: beige 1px solid;
     border-radius: 10px;
-    justify-content: space-around;
-    margin-right: 30px;
+    margin-right: 15px;
+    box-shadow: 7px 12px 18px 8px rgba(0,0,0,0.46);
     padding-left: 5px;
     padding-right: 5px;
+    background-color: #0d7498;
+    opacity: 0.6;
 }
 
 main
 {
-    width: 80%;  
+    height: 500px;
+    background-color: antiquewhite;
+    
+}
+
+.imageBureau
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+
 }
 
 
 .imageBureau .dimension
 {
     width: 100%;
-    height: 400px;
+    height: 600px;
     object-fit: cover;
     display: flex;
-    margin-left: 12%;
+    opacity: 0.9 ;
+}
+
+footer
+{
+    height: 150px;
+    background: linear-gradient(0deg, rgba(104,107,110,1) 64%, rgba(135,146,149,1) 88%, rgba(180,196,201,1) 97%);
+    margin-top: 50px;
+    padding-top: 30px;
+    font-size: 30px;
 }
 
 @media only screen and (min-width:350px){
