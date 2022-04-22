@@ -28,6 +28,8 @@ nav
     padding: 30px 30px; 
     position: fixed;
     z-index: 3;
+    flex-wrap: wrap;
+
 }
 
 a
@@ -108,6 +110,6 @@ footer
 
 h1{
     margin: initial;
-
 }
+
 }
