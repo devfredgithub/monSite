@@ -29,6 +29,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 11px 6px rgba(0,0,0,0.77);
 }
 nav
 {
+    position: fixed;
     display: flex;
     justify-content: center;
     padding: 30px 30px; 
@@ -147,7 +148,7 @@ h1{
 
 nav
 {
-
+    position: static;
 }
 
 .blocNav
