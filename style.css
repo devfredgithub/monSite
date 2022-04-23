@@ -140,7 +140,7 @@ footer
     font-size: 20px;
 }
 
-@media only screen and (min-width:450px){
+@media only screen and (max-width:450px){
 
 h1{
     margin: initial;
@@ -148,7 +148,7 @@ h1{
 
 nav
 {
-    position: initial;
+    position: static;
 }
 
 .blocNav
