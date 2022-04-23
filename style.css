@@ -32,7 +32,6 @@ nav
     display: flex;
     justify-content: center;
     padding: 30px 30px; 
-    position: fixed;
     z-index: 3;
     flex-wrap: wrap;
     scroll-padding-right: 100%;
@@ -141,7 +140,12 @@ h1{
 
 nav
 {
-    position: initial;
+    position: fixed;
+}
+
+.blocNav
+{
+    margin-top: 8px;
 }
 
 }
