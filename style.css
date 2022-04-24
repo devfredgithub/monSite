@@ -16,6 +16,11 @@ font-family: 'Mukta', sans-serif;
     
 }
 
+.logo
+{
+    width: 100px;
+}
+
 h1
 {
     background-color: antiquewhite;
@@ -177,12 +182,13 @@ nav
 
 .blocNav
 {
-    margin-top: 8px;
 }
 
 .commentaires
 {
-    display: initial;
+    flex-direction: column;
+    justify-content:center ;
+
 
 }
 
