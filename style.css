@@ -192,7 +192,7 @@ nav
 }
 .client
 {
-    width: inherit;
+    width: initial;
     margin: 15px 20px;
 }
 
