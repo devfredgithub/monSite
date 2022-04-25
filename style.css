@@ -84,6 +84,7 @@ main
     margin-top: 60px;
     border-radius: 10px;
     padding: 10px;
+    border: solid 4px white;
     
 
 }
@@ -188,8 +189,11 @@ nav
 {
     flex-direction: column;
     justify-content:center ;
-
-
+}
+.client
+{
+    width: inherit;
+    margin: 15px 20px;
 }
 
 
