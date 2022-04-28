@@ -35,8 +35,7 @@ nav
 {
     position: fixed;
     display: flex;
-    justify-content: center;
-    padding: 30px 30px; 
+    padding-bottom: 5px;
     z-index: 3;
     flex-wrap: wrap;
     scroll-padding-right: 100%;
@@ -80,7 +79,6 @@ main
 
 .imageBureau
 {
-    margin-top: 80px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -257,10 +255,6 @@ h1{
 nav
 {
     position: static;
-}
-
-.blocNav
-{
 }
 
 .commentaires
