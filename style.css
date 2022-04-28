@@ -184,6 +184,27 @@ footer
     font-size: 30px;
     border-radius: 10px;
     width: 30%;
+    margin-left: 5%;
+}
+
+/*page création*/
+
+.sitePageCreation
+{
+    height: 400px;
+}
+
+.siteCréer a
+{
+    color: #0d7498;
+    width:30%;
+    height: 20%;
+}
+
+img.imgSite
+{
+    width: 200px;
+    height: 150px;
 }
 
 /*page contact*/
