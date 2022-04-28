@@ -18,11 +18,6 @@ font-family: 'Mukta', sans-serif;
     width: 130px;
 }
 
-.mailTel
-{
-    color: #0d7498;
-}
-
 h1
 {
     background-color: antiquewhite;
@@ -196,12 +191,23 @@ footer
 .contactFormulaire
 {
     margin: 10% 20%;
-    height: 400px;
+    height: auto;
     border: solid black 2px;
     padding: 50px 15px;
     background-color: #84df81;
     -webkit-box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79); 
 box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79);
+}
+
+.mailTel
+{
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d7498;
+    
 }
 
 .bannièreSimple
