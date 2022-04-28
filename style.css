@@ -214,6 +214,12 @@ box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79);
     font-size: 15px;
 }
 
+.bannièreSimple
+{
+    width: 90%;
+}
+
+
 
 
 @media only screen and (max-width:780px){
@@ -245,6 +251,12 @@ nav
 .bannièreSimple
 {
     width: 300px;
+}
+
+.contactFormulaire
+{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 }
