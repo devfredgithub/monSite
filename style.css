@@ -190,7 +190,7 @@ footer
 
 .contactFormulaire
 {
-    margin: 10px;
+    margin: 10px 20%;
     height: auto;
     border: solid black 2px;
     padding: 50px 15px;
@@ -206,14 +206,15 @@ box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79);
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #0d7498;
-    
+    background-color: #0d7498; 
 }
 
-.bannièreSimple
+.devisInfos
 {
-    width: 100%;
+    font-size: 15px;
 }
+
+
 
 @media only screen and (max-width:780px){
 
@@ -239,6 +240,11 @@ nav
 {
     width: initial;
     margin: 15px 20px;
+}
+
+.bannièreSimple
+{
+    width: 300px;
 }
 
 }
