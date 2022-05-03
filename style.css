@@ -63,7 +63,15 @@ a
 main
 {
     background-color: antiquewhite;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vignetteInfo
+{
+    width: 30%;
+    margin: 0 15px;
 }
 
 .titreConteneur
@@ -254,6 +262,16 @@ h1{
 nav
 {
     position: static;
+}
+
+main
+{
+    justify-content: inherit;
+}
+
+.vignetteInfo
+{
+    width: inherit;
 }
 
 .commentaires
