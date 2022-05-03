@@ -75,6 +75,8 @@ main
     margin: 15px;
     border: 1px solid #0d7498;
     border-radius: 15px;
+    background: rgb(13,116,152);
+background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);
 }
 
 .titreConteneur
@@ -147,7 +149,8 @@ p
 {
     padding: 10px 50px;
     font-size: 25px;
-    background-color:antiquewhite ;
+    background: rgb(13,116,152);
+background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);
 }
 
 .clientCom
@@ -201,6 +204,7 @@ footer
     border-radius: 10px;
     width: 30%;
     margin-left: 5%;
+    margin-bottom: 5px;
 }
 
 /*page création*/
@@ -208,6 +212,7 @@ footer
 .sitePageCreation
 {
     height: 400px;
+    margin-left: 10%;
 }
 
 .siteCréer a
