@@ -17,6 +17,11 @@ font-family: 'Mukta', sans-serif;
     width: 130px;
 }
 
+.QRcode
+{
+    margin-top: 15px;
+}
+
 h1
 {
     background-color: antiquewhite;
@@ -41,6 +46,57 @@ nav
     flex-wrap: wrap;
     scroll-padding-right: 100%;
 }
+
+.miseEnAvant
+{
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100;
+    flex-wrap: wrap;
+
+}
+/**promo**/
+.promo
+{
+    background-color: #f8fa02;
+    font-size: 20px;
+    color: #39392e;
+    border: 2px solid #000000;
+}
+
+/**promo**/
+.rond
+{
+    width: 170px;
+    height: 170px;
+    border-radius: 65%;
+    border: 10px solid #0d7498 ;
+    background-color: #84df81;
+    color: #0d7498;
+    font-size: 35px;
+    padding-top: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    line-height: 40px;
+}
+
+.rondI
+{
+    width: 150px;
+    height: 180px;
+    font-size: 20px;
+    border: #84df81 5px solid;
+    margin:10px 5px;
+    color: aliceblue;
+}
+
+.rondContour
+{
+    border: 2px solid #000000;
+    display: flex;
+}
+
 
 a
 {
@@ -271,6 +327,18 @@ h1{
 nav
 {
     position: static;
+}
+
+.miseEnAvant
+{
+    justify-content: center;
+}
+
+.rondContour
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
 
 main
