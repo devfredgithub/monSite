@@ -264,10 +264,15 @@ footer
 }
 
 /*page création*/
+.titreCreation
+{
+    font-size: 30px;
+    padding: 10px;
+}
 
 .sitePageCreation
 {
-    height: 400px;
+    height: auto;
     margin-left: 10%;
 }
 
@@ -276,6 +281,15 @@ footer
     color: #0d7498;
     width:30%;
     height: 20%;
+}
+
+.siteCréer
+{
+    background-color:#84df81;
+    width: 100%;
+    border: #0d7498 2px solid;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 img.imgSite
