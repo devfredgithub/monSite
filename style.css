@@ -5,7 +5,6 @@ font-family: 'Mukta', sans-serif;**/
 
 body
 {
-    background-color:#0d7498;
     margin: 0;
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -19,7 +18,8 @@ header
 
 .logo
 {
-    width: 130px;
+    width: 60px;
+    height:60px;
 }
 
 .QRcode
@@ -29,10 +29,9 @@ header
 
 h1
 {
-    background-color: white;
-    border-bottom: solid 5px #0d7498;
-    margin: 30px 50px;
-    padding-top: 15px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .nom
@@ -77,7 +76,6 @@ nav
     height: 170px;
     border-radius: 65%;
     border: 10px solid #0d7498 ;
-    background-color: #84df81;
     color: #0d7498;
     font-size: 35px;
     padding-top: 30px;
@@ -93,12 +91,10 @@ nav
     font-size: 20px;
     border: #84df81 5px solid;
     margin:10px 5px;
-    color: aliceblue;
 }
 
 .rondContour
 {
-    border: 2px solid #000000;
     display: flex;
 }
 
@@ -118,13 +114,14 @@ a
     box-shadow: 7px 12px 18px 8px rgba(0,0,0,0.46);
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #0d7498;
+    /*background-color: #0d7498;*/
+    color: #000000;
     margin-top: 10px;
 }
 
 main
 {
-    background-color: antiquewhite;
+  /*  background-color: antiquewhite;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -136,8 +133,8 @@ main
     margin: 15px;
     border: 1px solid #0d7498;
     border-radius: 15px;
-    background: rgb(13,116,152);
-background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);
+   /* background: rgb(13,116,152);
+background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);*/
 }
 
 .titreConteneur
@@ -210,13 +207,12 @@ p
 {
     padding: 10px 50px;
     font-size: 25px;
-    background: rgb(13,116,152);
-background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);
+   /* background: rgb(13,116,152);
+background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba(132,223,129,0.7595413165266106) 69%);*/
 }
 
 .clientCom
 {
-    color: white;
     font-size: 30px;
     border-bottom: solid 2px #84df81;
     margin-left: 30px;
@@ -233,7 +229,6 @@ background: linear-gradient(30deg, rgba(13,116,152,0.5690651260504201) 33%, rgba
 
 .client
 {
-    color: white;
     width: 20%;
     border: gray 1px solid;
     border-radius: 5px;
@@ -290,7 +285,7 @@ footer
 
 .siteCréer
 {
-    background-color:#84df81;
+    /*background-color:#84df81;*/
     width: 100%;
     border: #0d7498 2px solid;
     border-radius: 15px;
@@ -312,7 +307,7 @@ img.imgSite
     height: auto;
     border: solid black 2px;
     padding: 50px 15px;
-    background-color: #84df81;
+   /* background-color: #84df81;*/
     -webkit-box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79); 
 box-shadow: 1px 32px 25px 3px rgba(0,0,0,0.79);
 }
